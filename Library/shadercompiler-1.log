@@ -1,0 +1,278 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-200
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=2641 outsize=2638 ok=1
+Cmd: preprocess
+  insize=2956 outsize=1854 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6255 outsize=2728 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6255 outsize=3468 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4188 outsize=3029 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4188 outsize=3768 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3851 outsize=1818 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3851 outsize=730 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5929 outsize=3005 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5929 outsize=3411 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=6254 outsize=751 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (129): incorrect number of arguments to numeric-type constructor
+  api=4 type=0 insize=5614 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1680 outsize=314 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (0): Vertex program 'vert': unknown input semantics TEXCOORD/2
+
+  api=4 type=0 insize=1611 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=2740 outsize=3533 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4591 outsize=2834 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4591 outsize=1477 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2381 outsize=2834 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2381 outsize=1420 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1939 outsize=1477 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1939 outsize=632 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4203 outsize=2923 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4203 outsize=1420 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1752 outsize=1404 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1752 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=450 outsize=3533 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=450 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=442 outsize=3533 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=442 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=442 outsize=3533 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=442 outsize=1388 kw= ok=1
+Cmd: preprocess
+  insize=2177 outsize=378 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (58): invalid subscript 's'
+  api=4 type=0 insize=2028 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5168 outsize=1103 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (0): Vertex program 'vert': unknown input semantics TEXCOORD/2
+
+  api=4 type=0 insize=4240 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=926 outsize=312 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=878 outsize=990 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=878 outsize=600 kw= ok=1
+Cmd: preprocess
+  insize=10780 outsize=1986 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (157): invalid subscript 'st'
+  api=4 type=0 insize=8862 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1113 outsize=1429 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4716 outsize=3208 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4716 outsize=1242 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2692 outsize=3443 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2692 outsize=1542 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2188 outsize=2135 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2188 outsize=632 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4401 outsize=3484 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4401 outsize=1152 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=2544 outsize=1853 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5853 outsize=2728 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5853 outsize=3273 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3786 outsize=3029 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3786 outsize=3573 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3449 outsize=1818 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3449 outsize=730 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5527 outsize=3005 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5527 outsize=3216 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=7516 outsize=727 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (166): incorrect number of arguments to numeric-type constructor
+  api=4 type=0 insize=6855 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=3231 outsize=3761 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5009 outsize=3785 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5009 outsize=1892 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2549 outsize=2834 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2549 outsize=1420 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2107 outsize=1477 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2107 outsize=632 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4590 outsize=3842 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4590 outsize=1794 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1920 outsize=1404 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1920 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=505 outsize=4256 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=505 outsize=1762 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=501 outsize=4256 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=501 outsize=1762 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=501 outsize=4256 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=501 outsize=1762 kw= ok=1
+Cmd: preprocess
+  insize=1242 outsize=351 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (0): Vertex program 'vert': unknown input semantics TEXCOORD/2
+
+  api=4 type=0 insize=1147 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=549 outsize=1292 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4257 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4257 outsize=1242 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2233 outsize=2875 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2233 outsize=1542 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1773 outsize=1477 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1773 outsize=632 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3974 outsize=2883 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3974 outsize=1152 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=7506 outsize=730 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (166): incorrect number of arguments to numeric-type constructor
+  api=4 type=0 insize=6841 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=7362 outsize=2285 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (111): invalid subscript 'st'
+  api=4 type=0 insize=10685 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=3069 outsize=3591 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4688 outsize=2834 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4688 outsize=1721 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2478 outsize=2834 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2478 outsize=1420 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2036 outsize=1477 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2036 outsize=632 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4300 outsize=2923 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4300 outsize=1623 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1849 outsize=1404 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1849 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=494 outsize=3736 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=494 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532 outsize=3736 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532 outsize=3736 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2381 outsize=1778 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2381 outsize=1006 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2549 outsize=1778 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2549 outsize=1006 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2478 outsize=1778 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2478 outsize=1006 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=1797 outsize=0 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=1 insize=1797 outsize=0 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (34): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=1965 outsize=0 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (34): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=1 insize=1965 outsize=0 kw=SHADOWS_SPLIT_SPHERES SHADOWS_NATIVE ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (34): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=5009 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (29): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=4688 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=4591 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=1 insize=4591 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=4591 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=0 insize=4591 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): failed to open source file: 'QT_Cubemaps.cginc'
+  api=4 type=1 insize=4591 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
