@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\Animations.cs" />
      <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\FollowCamera.cs" />
+     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\Trigger.cs" />
      <None Include="Assets\Masked Orc\Read Me.txt" />

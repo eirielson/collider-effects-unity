@@ -28,14 +28,14 @@ public class BaseCharacter : MonoBehaviour {
 
 	#region characterVars
 	float speed = 1.0f;
-	float verticalSpeed = 0.0f; //total velocidade em x
-	float horizontalSpeed = 0.0f; // velocidade em Y
+	protected float verticalSpeed = 0.0f; //total velocidade em x
+	protected float horizontalSpeed = 0.0f; // velocidade em Y
 
 	public float walkSpeed= 2.0f;
 	public float runSpeed = 5.0f;
-	bool isHit;
-	bool isDead;
-	bool isRunning;		
+	protected bool isHit;
+	protected bool isDead;
+	protected bool isRunning;		
 	CharacterController m_characterController;
 	#endregion characterVars
 
@@ -66,10 +66,12 @@ public class BaseCharacter : MonoBehaviour {
 	}
 
 	public virtual	void Move(){
-		if (m_characterController.isGrounded) { //se o personagem está sobre um collider.
+		if (!m_characterController.isGrounded) { //se o personagem está sobre um collider.
 			transform.Rotate(0,horizontalSpeed,0);
 			Vector3 forward = transform.TransformDirection(Vector3.forward); // obtem a direção do transform. Obtem o Z dele (para frente)
 
+
+			float actualSpeed = actualState == State.run ? runSpeed : walkSpeed;
 			m_characterController.SimpleMove(forward * verticalSpeed);
 		}
 	}
@@ -88,23 +90,25 @@ public class BaseCharacter : MonoBehaviour {
 
 			if(actualState == State.walk){
 				animation.CrossFade(walk.name,0.25f);  // faz a transição de uma animação para outra em determinado tempo.
-			}else if (actualState == State.run) {
+			}
+			else if (actualState == State.run) {
 				animation.CrossFade(run.name, 0.25f);
-			}else if (actualState == State.idle) {
+			}
+			else if (actualState == State.idle) {
 				animation.CrossFade(idle.name, 0.25f);
-			}else if (actualState == State.attack) {
-				animation.Blend(attack.name, 2);
 			}
 		}
 
 	}
 
 	private void Attack(){
-		previousState = actualState;
-		actualState = State.attack;
-		animation[attack.name].time = 0;
-		animation.Blend(attack.name, 1.0f);
-		StartCoroutine (CancelAttack ());
+		if (actualState != State.attack) {
+			previousState = actualState;
+			actualState = State.attack;
+			animation [attack.name].time = 0;
+			animation.Blend (attack.name, 1.0f);
+			StartCoroutine (CancelAttack ());
+		}
 	}
 
 	private void Hit(){
