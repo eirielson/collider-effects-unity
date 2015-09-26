@@ -23,6 +23,9 @@ public class BaseCharacter : MonoBehaviour {
 
 	public State actualState;
 	public State nextState;
+	public State previousState;
+
+
 	#region characterVars
 	float speed = 1.0f;
 	float verticalSpeed = 0.0f; //total velocidade em x
@@ -45,13 +48,16 @@ public class BaseCharacter : MonoBehaviour {
 		m_characterController.center = new Vector3 (0.0f, 0.62f, 0.0f);
 		m_characterController.radius = 0.35f;
 		m_characterController.height = 1.21f;
+
+		attack.wrapMode = WrapMode.Once;
+		hit.wrapMode = WrapMode.Once;
 	}
 
 
 	// Use this for initialization
 	// x 0.02  0.6,0 
 	void Start () {
-		walk.wrapMode = WrapMode.PingPong;
+
 	}
 	
 	// Update is called once per frame
@@ -69,12 +75,16 @@ public class BaseCharacter : MonoBehaviour {
 	}
 
 	public void SetState(State state){
+		previousState = actualState;
 		actualState = state;
+		SetAnimationState ();
 	}
 
 
 	public void SetAnimationState(){
-		if (actualState != State.hit && actualState != State.die) {
+		if (actualState != State.hit && 
+		    actualState != State.die && 
+		    actualState != State.attack) {
 
 			if(actualState == State.walk){
 				animation.CrossFade(walk.name,0.25f);  // faz a transição de uma animação para outra em determinado tempo.
@@ -82,11 +92,37 @@ public class BaseCharacter : MonoBehaviour {
 				animation.CrossFade(run.name, 0.25f);
 			}else if (actualState == State.idle) {
 				animation.CrossFade(idle.name, 0.25f);
+			}else if (actualState == State.attack) {
+				animation.Blend(attack.name, 2);
 			}
-
 		}
+
 	}
 
+	private void Attack(){
+		previousState = actualState;
+		actualState = State.attack;
+		animation[attack.name].time = 0;
+		animation.Blend(attack.name, 1.0f);
+		StartCoroutine (CancelAttack ());
+	}
+
+	private void Hit(){
+		previousState = actualState;
+		actualState = State.hit;
+		animation[hit.name].time = 0;
+		animation.CrossFade (hit.name, 0.25f);
+		StartCoroutine (CancelHit ());
+	}
+
+	private IEnumerator CancelAttack(){
+		yield return new WaitForSeconds (attack.length);
+		SetState(previousState);
+	}
+	private IEnumerator CancelHit(){
+		yield return new WaitForSeconds (hit.length);
+		SetState(previousState);
+	}
 
 	public void OnGUI(){
 		if (GUILayout.Button ("State Walk")) {
@@ -95,7 +131,15 @@ public class BaseCharacter : MonoBehaviour {
 		if (GUILayout.Button ("State Run")) {
 			SetState(State.run);
 		}
-
+		if (GUILayout.Button ("State Idle")) {
+			SetState(State.idle);
+		}
+		if (GUILayout.Button ("State Attack")) {
+			Attack();
+		}
+		if (GUILayout.Button ("State Hit")) {
+			Hit ();
+		}
 		/*speed = GUILayout.HorizontalSlider (speed, -10.0f, 10.0f);
 
 		foreach (AnimationState a in animation) {
