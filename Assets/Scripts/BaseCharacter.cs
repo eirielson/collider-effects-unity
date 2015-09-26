@@ -12,7 +12,7 @@ public class BaseCharacter : MonoBehaviour {
 		hit,
 		die
 	}
-
+	
 	public AnimationClip idle;
 	public AnimationClip walk;
 	public AnimationClip run;
@@ -20,13 +20,31 @@ public class BaseCharacter : MonoBehaviour {
 	public AnimationClip hit;
 	public AnimationClip die;
 
+
+	#region
+		
+	#endregion
+
 	// Use this for initialization
 	void Start () {
-	
+		walk.wrapMode = WrapMode.PingPong;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+	float speed = 1.0f;
+	public void OnGUI(){
+		speed = GUILayout.HorizontalSlider (speed, -10.0f, 10.0f);
+
+		foreach (AnimationState a in animation) {
+			if(GUILayout.Button(a.name)){
+				animation.Play(a.name);
+			}
+			a.speed = speed;
+		}
+	}
+
 }
