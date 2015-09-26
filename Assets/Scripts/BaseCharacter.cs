@@ -22,8 +22,25 @@ public class BaseCharacter : MonoBehaviour {
 
 
 	#region
+	float speed = 1.0f;
+	float verticalSpeed = 0.0f; //total velocidade em x
+	float horizontalSpeed = 0.0f; // velocidade em Y
+
+	public float walkSpeed= 2.0f;
+	public float runSpeed = 5.0f;
+	bool isHit;
+	bool isDead;
 		
+	CharacterController m_characterController;
+
 	#endregion
+	/// <summary>
+	/// Um passo anterior ao Start. Prepara o objeto para estar pronto no método start
+	/// </summary>
+	void Awake(){
+
+	}
+
 
 	// Use this for initialization
 	void Start () {
@@ -35,7 +52,11 @@ public class BaseCharacter : MonoBehaviour {
 	
 	}
 
-	float speed = 1.0f;
+	public void SetState(){
+
+	}
+
+
 	public void OnGUI(){
 		speed = GUILayout.HorizontalSlider (speed, -10.0f, 10.0f);
 
