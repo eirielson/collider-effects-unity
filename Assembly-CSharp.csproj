@@ -53,7 +53,7 @@
      <Compile Include="Assets\AllAssets\Scripts\NegativeBinomialDistribution.cs" />
      <Compile Include="Assets\AllAssets\Scripts\Unit.cs" />
      <Compile Include="Assets\Scripts\Animations.cs" />
-     <Compile Include="Assets\Scripts\CheckHit.cs" />
+     <Compile Include="Assets\Scripts\BaseCharacter.cs" />
      <Compile Include="Assets\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\Trigger.cs" />
